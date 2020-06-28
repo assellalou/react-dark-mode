@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+.container-fluid {
+  min-height: 100%;
+  margin: 0;
+  transition: background 0.5s, color 1s;
+  margin: auto;
+}
+.toggleTheme {
+  background: none;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 3px;
+  margin: 20px;
+}
+.Dark button {
+  color: #eee;
+  border-color: #eee;
+  transition: color 0.5s, border-color 1s;
+}
